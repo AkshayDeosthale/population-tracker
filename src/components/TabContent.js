@@ -76,15 +76,15 @@ const TabContent = () => {
     let data = [
       {
         country: "men",
-        value: population.population[`men`],
+        value: population?.population[`men`],
       },
       {
         country: "women",
-        value: population.population[`women`],
+        value: population?.population[`women`],
       },
       {
         country: "children",
-        value: population.population[`children`],
+        value: population?.population[`children`],
       },
     ];
 
